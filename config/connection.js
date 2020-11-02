@@ -3,13 +3,16 @@ const mysql = require("mysql");
 
 
 //now with mysqp we create a connection
+if (process.env.JAWSBD_URL) {
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
+} else {
 const connection = mysql.createConnection({
   host: "localhost",
-  port: 3306,
   user: "root",
   password: "rootpasswordSMU",
   database: "burger_db"
-});
+  });
+  };
 
 // Make connection
 //the connect function takes a call back function
