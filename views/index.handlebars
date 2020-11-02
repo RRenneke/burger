@@ -1,0 +1,46 @@
+<h1>Eat-Da-Burger!</h1>
+
+<section class="addBurger">
+<form class="create-form">
+<h2>More burgers:</h2>
+
+  <div class="form-group">
+    <label for="burg">Burger Name:</label>
+    <input type="text" id="burg" name="name">
+  </div>
+<br>
+  <div class="form-group">
+    <label for="devoured">Has it been devoured?</label><br>
+    <input type="radio" name="devoured" value="1" checked> I've already devoured<br>
+    <input type="radio" name="devoured" value="0"> I need to try it
+  </div>
+<br>
+
+  <button type="submit">Add Burger</button>
+</form>
+</section>
+
+
+<section class="bucketList">
+
+<h2>Burger still on the 'Bucket List' to eat:</h2>
+  <p>{{#each burgers}}
+    {{#unless devoured}}
+      {{> burgers/burger-block devoured=true}}
+    {{/unless}}
+  {{/each}}</p>
+
+</section>
+
+<section class="devouredList">
+
+  <h2>Devoured burgers:</h2>
+  <p>{{#each burgers}}
+    {{#if devoured}}
+      {{> burgers/burger-block devoured=false}}
+    {{/if}}
+  {{/each}}</p>
+
+</section>
+
+

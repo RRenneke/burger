@@ -1,0 +1,32 @@
+body {
+  background-color: #ff876a;
+  text-align: center;
+  
+}
+
+.addBurger {
+  background-color: antiquewhite;
+  border-radius: 50px 50px 5px 5px;
+  text-align: center;
+}
+
+.devouredList{
+  background-color: antiquewhite;
+  border-radius: 5px 5px 50px 50px;
+  text-align: center;
+}
+
+.bucketList {
+  background-color: burlywood;
+  text-align: center;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+  
