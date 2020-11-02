@@ -15,7 +15,7 @@ npm install express-handlebars
 ```
 
 ## Screenshot
-<img src="BurgerScreenShot.png" alt="Screenshot">
+<img src="/assets/BurgerScreenShot.png" alt="Screenshot">
 
 ## Links
 Repository
