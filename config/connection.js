@@ -3,7 +3,7 @@ const mysql = require("mysql");
 
 
 //now with mysqp we create a connection
-var connection = mysql.createConnection({
+const connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
