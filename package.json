@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "development": {
+    "username":"ptyh6y1j8lvf4e4d",
+    "password":"qvr9pgqswbz2kvu9",
+    "database":"u7kkkc73z52wi8kn",
+    "host":"qn66usrj1lwdk1cc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect":"mysql"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RRenneke/burger.git"
